@@ -1,18 +1,9 @@
 ---
 layout: default
-title: Home
-notitle: true
+title: News and Blog
 ---
-<div class="jumbotron">
-  <p>
-    The <b>Awesome Research Group</b> at <b>Example U</b> does all sorts of
-    research. Here is a place where we tell you exactly what that is!
-  </p>
-</div>
-
-<h2>News</h2>
 <ul class="news list-unstyled">
-{% for post in site.posts limit: site.front_page_news %}
+{% for post in site.posts %}
     {% if post.shortnews %}
         <li class="shortnews">
             <span class="date">{{ post.date | date_to_long_string }}</span>
@@ -26,7 +17,5 @@ notitle: true
     {% endif %}
 {% endfor %}
 </ul>
-{% assign numposts = site.posts | size %}
-{% if numposts >= site.front_page_news %}
-<p><a href="{{ site.base }}/blog/">Older posts&hellip;</a></p>
-{% endif %}
+
+<p><a href="{{ site.base }}/oldnews.html">See archived news posts.</a></p>
