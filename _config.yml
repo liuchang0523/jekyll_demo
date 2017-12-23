@@ -1,4 +1,4 @@
-name: Awesome Research Group
+name: 光电工程学院215实验室
 url: http://awesome.example.edu
 
 exclude: [bibble, README.md, Makefile, screenshot.png]
@@ -11,22 +11,25 @@ permalink: /blog/:year/:month/:day/:title.html
 
 # Sections on the "people" page.
 roles:
-  - key: faculty
-    name: Faculty
-  - key: staff
-    name: Staff
+  # - key: faculty
+    # name: Faculty
+  - key: professor
+#    name: Staff
+    name: 教授
   - key: postdoc
-    name: Researchers
+#    name: Researchers
+    name: 博士后
   - key: grad
-    name: Graduate Students
-  - key: ugrad
-    name: Undergraduate Students
-  - key: ugrad-alum
-    name: Past Undergraduate Students
-  - key: collab
-    name: Collaborators
-  - key: alum
-    name: Alumni
+#    name: Graduate Students
+    name: 研究生
+  # - key: ugrad
+    # name: Undergraduate Students    
+  # - key: ugrad-alum
+    # name: Past Undergraduate Students
+  # - key: collab
+    # name: Collaborators
+  # - key: alum
+    # name: Alumni
 
 # Number of news stories on the front page.
 front_page_news: 8

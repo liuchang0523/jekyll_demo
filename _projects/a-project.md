@@ -7,11 +7,7 @@ description: |
   fames ac turpis egestas.
 
 people:
-  - storm
-  - profx
-  - grad-b
-  - scott
-  - wolverine
+  - postdoc
 
 layout: project
 last-updated: 2015-05-05

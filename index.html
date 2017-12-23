@@ -5,7 +5,7 @@ notitle: true
 
 # groups of columns of {roles: list, width: num, image: bool}
 role-tables:
-- - roles: [faculty, postdoc, staff]
+- - roles: [professor, postdoc, staff]
     width: 4
     image: true
   - roles: [grad]
@@ -22,12 +22,12 @@ role-tables:
 
 <div class="jumbotron">
     <p>
-         <b>深圳大学光电工程学院</b> 215实验室 <b>欢迎您！</b>
+         <b><center>深圳大学光电工程学院215实验室欢迎您！</center></b>
     </p>
 </div>
 
 <section>
-    <h2>新闻</h2>
+    <h2>news</h2>
     <ul class="news list-unstyled">
         {% for post in site.posts limit: site.front_page_news %}
             {% include news-item.html item=post %}
