@@ -10,11 +10,10 @@ people:
   - liaoyifan
 
 layout: project
-image: "img/test.png"
+image: "http://www1.szu.edu.cn/images/index/201706061.jpg"
 last-updated: 2017-12-24
 ---
 
-![](img/test.png)
 实验室的第一个项目.
 
 ## header

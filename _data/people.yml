@@ -1,16 +1,16 @@
 
-prof-a:
+pengxiang:
     display_name: "彭翔"
     role: professor
     image: /img/people/prof-x.png
     bio: 教授
-
-prof-b:
+    
+liuxiaoli:
     display_name: "刘晓利"
     role: professor
     image: /img/people/prof-x.png
 
-prof-c:
+hewenqi:
     display_name: "何文奇"
     role: professor
     image: /img/people/prof-x.png
@@ -43,7 +43,7 @@ liaomeihua:
 liuchang:
     display_name: "刘畅"
     webpage: "http://lcloveqq.me"
-    #image: /img/people/liuchang.jpg
+    image: /img/people/liuchang.jpg
     role: grad
 
 yangyang:
@@ -83,14 +83,19 @@ xiongwenqin:
 
 liuxinyun:
     display_name: "刘欣运"
-   # image: /img/people/liuxinyun.jpg
+    image: /img/people/liuxinyun.jpg
     role: grad
 
 wuyu:
     display_name: "吴禹"
  #   image: /img/people/wuyu.jpg
     role: grad
-    
+ 
+haihan:
+    display_name: "海涵"
+    image: /img/people/haihan.jpg
+    role: grad   
+       
 shenhao:
     display_name: "申浩"
 #    image: /img/people/shenhao.jpg
