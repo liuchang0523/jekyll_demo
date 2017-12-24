@@ -3,6 +3,7 @@ prof-a:
     display_name: "彭翔"
     role: professor
     image: /img/people/prof-x.png
+    bio: 教授
 
 prof-b:
     display_name: "刘晓利"
@@ -17,65 +18,141 @@ prof-c:
 tangqijian:
     display_name: "汤其剑"
     role: postdoc
-    image: /img/people/scott.png
+    #image: /img/people/tangqijian.png
     
 caizewei:
     display_name: "蔡泽伟"
     role: postdoc
-    image: /img/people/scott.png
+    #image: /img/people/caizewei.png
     
 zhangchenggong:
     display_name: "张承功"
     role: postdoc
-    image: /img/people/scott.png
+    image: /img/people/zhangchenggong.jpg
         
 ludajiang:
     display_name: "卢大江"
     role: postdoc
-    image: /img/people/scott.png
+   #image: /img/people/ludajiang.png
     
 liaomeihua:
     display_name: "廖美华"
-    role: postdoc  
-    image: /img/people/scott.png
+    role: postdoc
+    #image: /img/people/liaomeihua.png
     
 liuchang:
     display_name: "刘畅"
     webpage: "http://lcloveqq.me"
+    #image: /img/people/liuchang.jpg
     role: grad
 
 yangyang:
     display_name: "杨洋"
+    image: /img/people/yangyang.jpg
+    role: grad
+
+licheng:
+    display_name: "张雅琴"
+    image: /img/people/zhangyaqin.jpg
     role: grad
 
 licheng:
     display_name: "李成"
+    #image: /img/people/licheng.jpg
     role: grad
 
-grad-c:
-    display_name: "Grad C"
+liuchaojun:
+    display_name: "刘超俊"
+    image: /img/people/liuchaojun.jpg
     role: grad
 
-grad-d:
-    display_name: "Grad D"
+wangqilei:
+    display_name: "王启垒"
+    image: /img/people/wangqilei.jpg
     role: grad
 
-grad-e:
-    display_name: "Grad E"
+zhanglu:
+    display_name: "张璐"
+    #image: /img/people/zhanglu.jpg
     role: grad
 
-grad-f:
-    display_name: "Grad F"
+xiongwenqin:
+    display_name: "熊文琴"
+    #image: /img/people/xiongwenqin.jpg
     role: grad
 
-grad-g:
-    display_name: "Grad G"
+liuxinyun:
+    display_name: "刘欣运"
+   # image: /img/people/liuxinyun.jpg
     role: grad
 
-grad-h:
-    display_name: "Grad H"
+wuyu:
+    display_name: "吴禹"
+ #   image: /img/people/wuyu.jpg
     role: grad
-
-grad-i:
-    display_name: "Grad I"
-    role: grad
+    
+shenhao:
+    display_name: "申浩"
+#    image: /img/people/shenhao.jpg
+    role: grad    
+    
+hanbennian:
+    display_name: "韩本年"
+    image: /img/people/hanbennian.jpg
+    role: grad    
+    
+chenzhizhen:
+    display_name: "陈智振"
+#    image: /img/people/chenzhizhen.jpg
+    role: grad        
+     
+liaoyifan:
+    display_name: "廖一帆"
+    image: /img/people/liaoyifan.jpg
+    role: grad        
+    
+zhoucong:
+    display_name: "周聪"
+  #  image: /img/people/zhoucong.jpg
+    role: grad        
+    
+huanghuang:
+    display_name: "黄璜"
+    image: /img/people/huanghuang.jpg
+    role: grad        
+    
+zhanglianbin:
+    display_name: "张莲彬"
+    image: /img/people/zhanglianbin.jpg
+    role: grad        
+    
+chenjiawei:
+    display_name: "陈家伟"
+#    image: /img/people/chenjiawei.jpg
+    role: grad        
+    
+liyang:
+    display_name: "李阳"
+    image: /img/people/liyang.jpg
+    role: grad        
+    
+yujing:
+    display_name: "喻菁"
+    image: /img/people/yujing.jpg
+    role: grad        
+    
+yangjunjie:
+    display_name: "杨俊杰"
+  #  image: /img/people/yangjunjie.jpg
+    role: grad        
+    
+xujiang:
+    display_name: "徐江"
+ #   image: /img/people/xujiang.jpg
+    role: grad        
+    
+niuqiang:
+    display_name: "牛强"
+    image: /img/people/niuqiang.jpg
+    role: grad        
+   
