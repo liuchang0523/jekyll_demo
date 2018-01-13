@@ -18,7 +18,7 @@
 				{%- if url %}
 				<img src="img/pdficon_small.png" width="16"
 					height="16" alt="PDF" />
-				<a href="{{ url|escape }}">{{ entry|title }}</a>.
+				<a href="{{ url|escape }}"  target=\"_blank\">{{ entry|title }}</a>.
 				{%- else %}
 				{{ entry|title }}.
 				{%- endif %}
@@ -35,7 +35,7 @@
 			<br />
 			<span class="links">
 			{%- for type, url in (entry|extra_urls).iteritems() %}
-				[<a href="{{ url|escape }}">{{ type|escape }}</a>]
+				[<a href="{{ url|escape}}">{{ type|escape }}</a>]
 			{%- endfor %}
 				{%- if entry.fields['abstract'] %}
 				[<a class="dropdown-toggle" data-toggle="dropdown" href="javascript:void(0);" onclick="$('#abstract_{{entry.fields['key']}}').slideToggle('fast');return false;">abstract</a>]

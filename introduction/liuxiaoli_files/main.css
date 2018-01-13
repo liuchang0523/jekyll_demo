@@ -1,0 +1,384 @@
+/* GLOBAL STYLES
+-------------------------------------------------- */
+.nav>li>a {
+padding: 10px 10px;
+padding-top: 15px;
+padding-bottom: 15px;
+}
+
+.dot li {
+  padding-left: 14px;
+  background: url('../images/dot.gif') no-repeat 5px center;
+}
+#foot1 li a {
+  color:#e7e7e7;
+  text-decoration: none;
+}
+
+.links a:visited{
+    color: #B8996C;
+}
+
+a {
+  color: #820000;
+  text-decoration: none;
+}
+
+a:hover, a:focus {
+  color: #ff9900;
+  text-decoration: none;
+}
+
+
+body,button, input, select, textarea,h1 ,h2, h3, h4, h5, h6 ,a
+{ font-family: "Microsoft YaHei",'微软雅黑','宋体' , Tahoma, Helvetica, Arial, "\5b8b\4f53", sans-serif;  }
+/* Padding below the footer and lighter body text */
+
+body {
+  background-color: #efefef; 
+  color: #5a5a5a;
+}
+
+/* The shadow effort
+-------------------------------------------------- */
+.shadow {
+   width:auto;height:auto;border:#909090 1px solid;background:#fff;color:#333;
+   filter:progid:DXImageTransform.Microsoft.Shadow(color=#909090,direction=120,strength=4);
+   -moz-box-shadow: 2px 2px 10px #909090;
+   -webkit-box-shadow: 2px 2px 10px #909090;
+   box-shadow:2px 2px 10px #909090;
+}
+
+
+
+/* CUSTOMIZE THE NAVBAR
+-------------------------------------------------- */
+
+/* Special class on .container surrounding .navbar, used for positioning it into place. */
+.navbar-wrapper {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 20;
+}
+
+/* Flip around the padding for proper display in narrow viewports */
+.navbar-wrapper > .container {
+  padding-right: 0;
+  padding-left: 0;
+}
+.navbar-wrapper .navbar {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+.navbar-wrapper .navbar .container {
+  width: auto;
+}
+
+
+/* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
+
+/* Carousel base class */
+.carousel {
+  height: 414px;
+  margin-bottom: 60px;
+}
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  z-index: 10;
+}
+
+/* Declare heights because of positioning of img element */
+.carousel .item {
+  height: 414px;
+  background-color: #777;
+}
+.carousel-inner > .item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 414px;
+}
+
+
+
+/* MARKETING CONTENT
+-------------------------------------------------- */
+
+/* Center align the text within the three columns below the carousel */
+.marketing .col-lg-4 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+.marketing h2 {
+  font-weight: normal;
+}
+.marketing .col-lg-4 p {
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+
+/* Featurettes
+------------------------- */
+
+.featurette-divider {
+  margin: 80px 0; /* Space out the Bootstrap <hr> more */
+}
+
+/* Thin out the marketing headings */
+.featurette-heading {
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: -1px;
+}
+
+
+
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+
+@media (min-width: 768px) {
+
+  /* Navbar positioning foo */
+  .navbar-wrapper {
+    margin-top: 20px;
+  }
+  .navbar-wrapper .container {
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+  .navbar-wrapper .navbar {
+    padding-right: 0;
+    padding-left: 0;
+  }
+
+  /* The navbar becomes detached from the top, so we round the corners */
+  .navbar-wrapper .navbar {
+    border-radius: 4px;
+  }
+
+  /* Bump up size of carousel content */
+  .carousel-caption p {
+    margin-bottom: 20px;
+    font-size: 21px;
+    line-height: 1.4;
+  }
+
+  .featurette-heading {
+    font-size: 50px;
+  }
+}
+
+@media (min-width: 992px) {
+  .featurette-heading {
+    margin-top: 120px;
+  }
+}
+
+.limitwords{
+  padding-left: 0px;
+}
+
+.limitwords li {  
+
+ font-size: 14px;
+ white-space:nowrap;  
+ text-overflow:ellipsis;  
+ -o-text-overflow:ellipsis;  
+ overflow: hidden;  
+ }
+
+  .limitwords  .mailTitle{
+ white-space:nowrap;
+ text-overflow:ellipsis; 
+ -o-text-overflow:ellipsis; 
+ overflow: hidden;
+ } 
+
+ .limitwords div p {
+ white-space:nowrap;
+ text-overflow:ellipsis; 
+ -o-text-overflow:ellipsis; 
+ overflow: hidden;
+ }
+
+.headline {
+    display: block;
+    margin: 0px 0px 15px;
+    border-bottom: 2px solid #C95C5C;
+}
+
+.headline2{
+    display: block;
+    margin: 0px 0px 15px;
+/*    border-bottom: 2px solid #5c5c5c;*/
+    color: #A08359;
+
+}
+
+
+label{
+  font-size:20px;
+}
+
+/* 增加超量隐藏属性 */
+.divcolumn {
+  height: 205px;
+  overflow: hidden;
+}
+
+#login{
+ /*padding-top: 5px; */
+ height:300px;
+}
+
+#login .loginitem{
+margin-top: 5px;
+}
+
+#tabstyle{
+  overflow:hidden;height:690px;
+}
+
+#foot1{
+  background-color: #8c1515;
+  color: #e7e7e7;
+}
+#foot2{
+  background-color:#333333;
+/*  margin-top:20px;*/
+padding-top: 20px;
+  color: #999999;
+}
+
+#video{
+  height:225px;width:252px;
+}
+
+.noneunderline{
+  text-decoration: none;
+}
+
+#tab{
+  padding:10px;
+}
+
+#header{
+  background-color: #8c1515;
+  height: 100px;
+}
+
+#top{  
+  background-color: #8c1515;
+}
+
+#title{
+  padding-top:20px;
+}
+
+.bg-white{
+opacity: .9;
+
+  background-color: #f2f1eb;
+}
+
+.carousel-caption{
+width: 400px;
+position: absolute;
+bottom: 18px;
+left: 18px;
+top: inherit;
+right: inherit;
+text-align: left;
+text-shadow: none;
+color: inherit;
+padding: 0px 20px;
+}
+
+.carousel-indicators{
+  bottom: -50px;
+}
+
+.carousel-indicators li{
+  border: 1px solid #8c1515;
+  height: 15px;
+  width:15px;
+}
+
+.carousel-indicators .active {
+margin: 0;
+width: 15px;
+height: 15px;
+background-color: #A52828;
+}
+
+.navbar-form{
+margin-top: 30px;
+}
+.navbar{
+  margin-bottom: 0px;
+  border:0;
+}
+
+#navcontainer{
+  background-color:#f8f8f8;
+}
+
+.lists{
+  color: #e7e7e7;
+  text-decoration: none;
+}
+
+  .lists :hover {
+    color: #f8f8f8;
+    text-decoration: none;
+  }
+
+.lists2{
+  color: #535353;
+  text-decoration: none;
+}
+
+  .lists2 :hover {
+    color: #000;
+    text-decoration: none;
+  }
+
+#seprator{
+  height:10px;background-color:#A08359;margin-top:30px;
+}
+
+#logo{
+  height: 96px;
+  width: 96px;
+  margin-top: 5px;
+}
+
+.btn-primary {
+color: #fff;
+background-color: #d9534f;
+border-color: #d43f3a;
+}
+
+.btn-primary:hover, .btn-primary:focus, .btn-primary.focus, .btn-primary:active, .btn-primary.active, .open>.dropdown-toggle.btn-primary {
+color: #fff;
+background-color: #c9302c;
+border-color: #ac2925;
+}
+
+.nav-pills>li.active>a, .nav-pills>li.active>a:hover, .nav-pills>li.active>a:focus {
+color: #fff;
+background-color: #c9302c;
+}
+
+.abutton{
+  margin-bottom: 70px;
+}
+
+#totop{
+  color: #FCF208;
+}

@@ -1,5 +1,5 @@
-name: 光电工程学院215实验室
-url: http://awesome.example.edu
+name: Computational Optical Imaging Lab
+url: #http://awesome.example.edu
 
 exclude: [bibble, README.md, Makefile, screenshot.png]
 
@@ -11,17 +11,13 @@ permalink: /blog/:year/:month/:day/:title.html
 
 # Sections on the "people" page.
 roles:
-  # - key: faculty
-    # name: Faculty
-  - key: professor
-#    name: Staff
-    name: 教授
+  - key: faculty
+    name: Faculty
   - key: postdoc
-#    name: Researchers
-    name: 博士后
+    name: Postdoc
   - key: grad
 #    name: Graduate Students
-    name: 研究生
+    name: Graduate Students
   # - key: ugrad
     # name: Undergraduate Students    
   # - key: ugrad-alum
@@ -52,7 +48,7 @@ navigation:
     link: /research.html
   - title: Publications
     link: /publications.html
-  - title: Code
-    link: /code.html
+#  - title: Code
+#    link: /code.html
 
 theme: jekyll-theme-architect

@@ -23,6 +23,12 @@ h3 {
     display: none;
 }
 
+img {
+    clear: both; 
+    display: block; 
+    margin:auto; 
+}
+
 body {
     padding: -2em 0 0 0;
 }

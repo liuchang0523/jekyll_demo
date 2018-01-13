@@ -1,163 +1,202 @@
 
 pengxiang:
-    display_name: "彭翔"
-    role: professor
-    image: /img/people/prof-x.png
-    bio: 教授
+    display_name: "Xiang PENG"
+    role: faculty
+    #webpage: "http://coi.szu.edu.cn/introduction/pengxiang.html"
+    image: /img/people/pengxiang.jpg
+    #bio: Professor
     
 liuxiaoli:
-    display_name: "刘晓利"
-    role: professor
-    image: /img/people/prof-x.png
+    display_name: "Xiaoli LIU"
+    role: faculty
+    #webpage: "http://coi.szu.edu.cn/introduction/liuxiaoli.html"
+    image: /img/people/liuxiaoli.jpg
 
 hewenqi:
-    display_name: "何文奇"
-    role: professor
-    image: /img/people/prof-x.png
+    display_name: "Wenqi HE"
+    role: faculty
+    #webpage: "http://coi.szu.edu.cn/introduction/hewenqi.html"
+    image: /img/people/hewenqi.jpg
 
 tangqijian:
-    display_name: "汤其剑"
+    display_name: "Qijian TANG"
     role: postdoc
-    #image: /img/people/tangqijian.png
-    
-caizewei:
-    display_name: "蔡泽伟"
-    role: postdoc
-    #image: /img/people/caizewei.png
-    
+    image: /img/people/tangqijian.jpg
+    bio: Since:2015
+  
+   
 zhangchenggong:
-    display_name: "张承功"
+    display_name: "Chenggong ZHANG"
     role: postdoc
     image: /img/people/zhangchenggong.jpg
+    bio: Since:2016
         
 ludajiang:
-    display_name: "卢大江"
+    display_name: "Dajiang LU"
     role: postdoc
-   #image: /img/people/ludajiang.png
+    image: /img/people/ludajiang.jpg
+    bio: Since:2016
     
 liaomeihua:
-    display_name: "廖美华"
+    display_name: "Meihua LIAO"
     role: postdoc
-    #image: /img/people/liaomeihua.png
+    image: /img/people/liaomeihua.png
+    bio: Since:2016
     
+caizewei:
+    display_name: "Zewei CAI"
+    role: postdoc
+    image: /img/people/caizewei.jpg
+    bio: Since:2017
+    
+dengdingnan:
+    display_name: "Dingnan DENG"
+    image: /img/people/dengdingnan.jpg
+    role: grad
+    bio: "(Doctor Student)<br/>Since:2015"
+        
 liuchang:
-    display_name: "刘畅"
-    webpage: "http://lcloveqq.me"
+    display_name: "Chang LIU"
+    #webpage: "http://lcloveqq.me"
     image: /img/people/liuchang.jpg
     role: grad
+    bio: Since:2015
 
 yangyang:
-    display_name: "杨洋"
+    display_name: "Yang YANG"
     image: /img/people/yangyang.jpg
     role: grad
+    bio: Since:2015
 
-licheng:
-    display_name: "张雅琴"
+zhangyaqin:
+    display_name: "Yaqin ZHANG"
     image: /img/people/zhangyaqin.jpg
     role: grad
+    bio: Since:2015
 
 licheng:
-    display_name: "李成"
-    #image: /img/people/licheng.jpg
+    display_name: "Cheng LI"
+    image: /img/people/licheng.jpg
     role: grad
+    bio: Since:2015
 
 liuchaojun:
-    display_name: "刘超俊"
+    display_name: "Chaojun LIU"
     image: /img/people/liuchaojun.jpg
     role: grad
+    bio: Since:2015
 
 wangqilei:
-    display_name: "王启垒"
+    display_name: "Qilei WANG"
     image: /img/people/wangqilei.jpg
     role: grad
+    bio: Since:2015
 
 zhanglu:
-    display_name: "张璐"
-    #image: /img/people/zhanglu.jpg
+    display_name: "Lu ZHANG"
+    image: /img/people/zhanglu.jpg
     role: grad
+    bio: Since:2016
 
 xiongwenqin:
-    display_name: "熊文琴"
-    #image: /img/people/xiongwenqin.jpg
+    display_name: "WenQin XIONG"
+    image: /img/people/xiongwenqin.jpg
     role: grad
+    bio: Since:2016
 
 liuxinyun:
-    display_name: "刘欣运"
+    display_name: "Xinyun LIU"
     image: /img/people/liuxinyun.jpg
     role: grad
+    bio: Since:2016
 
 wuyu:
-    display_name: "吴禹"
- #   image: /img/people/wuyu.jpg
+    display_name: "Yu WU"
+    image: /img/people/wuyu.jpg
     role: grad
+    bio: Since:2016
  
 haihan:
-    display_name: "海涵"
+    display_name: "Han HAI"
     image: /img/people/haihan.jpg
-    role: grad   
+    role: grad
+    bio: Since:2016   
        
 shenhao:
-    display_name: "申浩"
-#    image: /img/people/shenhao.jpg
-    role: grad    
+    display_name: "Hao SHEN"
+    image: /img/people/shenhao.jpg
+    role: grad   
+    bio: Since:2016 
     
 hanbennian:
-    display_name: "韩本年"
+    display_name: "Bennian HAN"
     image: /img/people/hanbennian.jpg
     role: grad    
+    bio: Since:2016
     
 chenzhizhen:
-    display_name: "陈智振"
-#    image: /img/people/chenzhizhen.jpg
-    role: grad        
+    display_name: "Zhizhen CHEN"
+    image: /img/people/chenzhizhen.jpg
+    role: grad       
+    bio: Since:2016 
      
 liaoyifan:
-    display_name: "廖一帆"
+    display_name: "YiFan LIAO"
     image: /img/people/liaoyifan.jpg
-    role: grad        
+    role: grad       
+    bio: Since:2016 
     
 zhoucong:
-    display_name: "周聪"
-  #  image: /img/people/zhoucong.jpg
-    role: grad        
+    display_name: "Cong ZHOU"
+    image: /img/people/zhoucong.jpg
+    role: grad       
+    bio: Since:2017 
     
 huanghuang:
-    display_name: "黄璜"
+    display_name: "Huang HUANG"
     image: /img/people/huanghuang.jpg
-    role: grad        
+    role: grad       
+    bio: Since:2017 
     
 zhanglianbin:
-    display_name: "张莲彬"
+    display_name: "Lianbin ZHANG"
     image: /img/people/zhanglianbin.jpg
-    role: grad        
+    role: grad       
+    bio: Since:2017 
     
 chenjiawei:
-    display_name: "陈家伟"
-#    image: /img/people/chenjiawei.jpg
-    role: grad        
+    display_name: "Jiawei CHEN"
+    image: /img/people/chenjiawei.jpg
+    role: grad       
+    bio: Since:2017 
     
 liyang:
-    display_name: "李阳"
+    display_name: "Yang LI"
     image: /img/people/liyang.jpg
-    role: grad        
+    role: grad       
+    bio: Since:2017 
     
 yujing:
-    display_name: "喻菁"
+    display_name: "Jing YU"
     image: /img/people/yujing.jpg
-    role: grad        
+    role: grad       
+    bio: Since:2017 
     
 yangjunjie:
-    display_name: "杨俊杰"
-  #  image: /img/people/yangjunjie.jpg
-    role: grad        
+    display_name: "Junjie YANG"
+    image: /img/people/yangjunjie.jpg
+    role: grad       
+    bio: Since:2017 
     
 xujiang:
-    display_name: "徐江"
- #   image: /img/people/xujiang.jpg
-    role: grad        
+    display_name: "Jiang XU"
+    image: /img/people/xujiang.jpg
+    role: grad       
+    bio: Since:2017 
     
 niuqiang:
-    display_name: "牛强"
+    display_name: "Qiang NIU"
     image: /img/people/niuqiang.jpg
-    role: grad        
+    role: grad       
+    bio: Since:2017 
    

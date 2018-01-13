@@ -1,0 +1,9 @@
+@article{Jiang2016An,
+  title={An Interactive Model of Creative Design Behavior with 3D Optical Technology},
+  author={Jiang, Hao and Liu, Xiao Li and Peng, Xiang and Tang, Ming Xi},
+  journal={Springer International Publishing},
+  year={2016},
+ keywords={3D imaging;3D scanning and printing;Creative design;Interactive design},
+ 
+url={https://www.researchgate.net/publication/304370610_An_Interactive_Model_of_Creative_Design_Behavior_with_3D_Optical_Technology?ev=auth_pub},
+}
